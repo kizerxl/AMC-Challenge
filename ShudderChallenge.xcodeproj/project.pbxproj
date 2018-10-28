@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27099D0F92C491BF4CBB0B1B /* Pods_ShudderChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D39116AAD898C0F37C2C21D /* Pods_ShudderChallenge.framework */; };
+		5F2018B87B109D6FC1B55446 /* Pods_ShudderChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5019D8348A330937680EC348 /* Pods_ShudderChallengeTests.framework */; };
+		761051AC218269010078FD39 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761051AB218269010078FD39 /* Movie.swift */; };
+		761051AE2182A3930078FD39 /* SectionTitleHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761051AD2182A3930078FD39 /* SectionTitleHeaderCell.swift */; };
+		761051B02183FC9F0078FD39 /* MovieRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761051AF2183FC9F0078FD39 /* MovieRowCell.swift */; };
+		761051B2218409F40078FD39 /* MovieCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761051B1218409F40078FD39 /* MovieCollectionCell.swift */; };
+		761051B421840AFE0078FD39 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761051B321840AFE0078FD39 /* MovieManager.swift */; };
+		761051B82184ACE90078FD39 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761051B72184ACE90078FD39 /* NetworkManager.swift */; };
+		761051BF21851FDA0078FD39 /* ImageCachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761051BE21851FDA0078FD39 /* ImageCachable.swift */; };
 		761AD93A21816B0E0058B8C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AD93921816B0E0058B8C0 /* AppDelegate.swift */; };
-		761AD93C21816B0E0058B8C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AD93B21816B0E0058B8C0 /* ViewController.swift */; };
+		761AD93C21816B0E0058B8C0 /* FeaturedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AD93B21816B0E0058B8C0 /* FeaturedVC.swift */; };
 		761AD93F21816B0E0058B8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761AD93D21816B0E0058B8C0 /* Main.storyboard */; };
 		761AD94121816B100058B8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761AD94021816B100058B8C0 /* Assets.xcassets */; };
 		761AD94421816B100058B8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761AD94221816B100058B8C0 /* LaunchScreen.storyboard */; };
 		761AD94F21816B100058B8C0 /* ShudderChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AD94E21816B100058B8C0 /* ShudderChallengeTests.swift */; };
 		761AD95A21816B100058B8C0 /* ShudderChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AD95921816B100058B8C0 /* ShudderChallengeUITests.swift */; };
+		761AD96D21818FA90058B8C0 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761AD96C21818FA90058B8C0 /* UIViewExt.swift */; };
+		B3495B7D1AF7968D91E6FAF8 /* Pods_ShudderChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175D590E9FE6F86C992E9761 /* Pods_ShudderChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		168380ABC8C99DA960C16F83 /* Pods-ShudderChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShudderChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShudderChallenge/Pods-ShudderChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		175D590E9FE6F86C992E9761 /* Pods_ShudderChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShudderChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4759E8D9A8D6043CE5DF1B47 /* Pods-ShudderChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShudderChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShudderChallenge/Pods-ShudderChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF14F3DB4DD25EEE071E424 /* Pods-ShudderChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShudderChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShudderChallengeUITests/Pods-ShudderChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5019D8348A330937680EC348 /* Pods_ShudderChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShudderChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D39116AAD898C0F37C2C21D /* Pods_ShudderChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShudderChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2D6175CA9839DAE8BBF99A /* Pods-ShudderChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShudderChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShudderChallengeUITests/Pods-ShudderChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73CB24A5C391940538A315D9 /* Pods-ShudderChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShudderChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShudderChallengeTests/Pods-ShudderChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		761051AB218269010078FD39 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		761051AD2182A3930078FD39 /* SectionTitleHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleHeaderCell.swift; sourceTree = "<group>"; };
+		761051AF2183FC9F0078FD39 /* MovieRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowCell.swift; sourceTree = "<group>"; };
+		761051B1218409F40078FD39 /* MovieCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionCell.swift; sourceTree = "<group>"; };
+		761051B321840AFE0078FD39 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		761051B72184ACE90078FD39 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		761051BE21851FDA0078FD39 /* ImageCachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCachable.swift; sourceTree = "<group>"; };
 		761AD93621816B0E0058B8C0 /* ShudderChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShudderChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		761AD93921816B0E0058B8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		761AD93B21816B0E0058B8C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		761AD93B21816B0E0058B8C0 /* FeaturedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedVC.swift; sourceTree = "<group>"; };
 		761AD93E21816B0E0058B8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		761AD94021816B100058B8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		761AD94321816B100058B8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,8 @@
 		761AD95521816B100058B8C0 /* ShudderChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShudderChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		761AD95921816B100058B8C0 /* ShudderChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShudderChallengeUITests.swift; sourceTree = "<group>"; };
 		761AD95B21816B100058B8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761AD96C21818FA90058B8C0 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		7EE327821E6DCD3667E4AA27 /* Pods-ShudderChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShudderChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShudderChallengeTests/Pods-ShudderChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27099D0F92C491BF4CBB0B1B /* Pods_ShudderChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2018B87B109D6FC1B55446 /* Pods_ShudderChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3495B7D1AF7968D91E6FAF8 /* Pods_ShudderChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22123D2C2A3CCF087840A058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4759E8D9A8D6043CE5DF1B47 /* Pods-ShudderChallenge.debug.xcconfig */,
+				168380ABC8C99DA960C16F83 /* Pods-ShudderChallenge.release.xcconfig */,
+				7EE327821E6DCD3667E4AA27 /* Pods-ShudderChallengeTests.debug.xcconfig */,
+				73CB24A5C391940538A315D9 /* Pods-ShudderChallengeTests.release.xcconfig */,
+				6D2D6175CA9839DAE8BBF99A /* Pods-ShudderChallengeUITests.debug.xcconfig */,
+				4FF14F3DB4DD25EEE071E424 /* Pods-ShudderChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		761051BB2184FBE60078FD39 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				761051B72184ACE90078FD39 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		761AD92D21816B0E0058B8C0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				761AD94D21816B100058B8C0 /* ShudderChallengeTests */,
 				761AD95821816B100058B8C0 /* ShudderChallengeUITests */,
 				761AD93721816B0E0058B8C0 /* Products */,
+				22123D2C2A3CCF087840A058 /* Pods */,
+				EA24E6D69D6B5E27A3E23F92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +151,12 @@
 		761AD93821816B0E0058B8C0 /* ShudderChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				761051BB2184FBE60078FD39 /* Networking */,
+				761AD96B21818F940058B8C0 /* Protocols */,
+				761AD96A21816B8C0058B8C0 /* Controllers */,
+				761AD96821816B7E0058B8C0 /* Views */,
+				761AD96721816B440058B8C0 /* Models */,
 				761AD93921816B0E0058B8C0 /* AppDelegate.swift */,
-				761AD93B21816B0E0058B8C0 /* ViewController.swift */,
 				761AD93D21816B0E0058B8C0 /* Main.storyboard */,
 				761AD94021816B100058B8C0 /* Assets.xcassets */,
 				761AD94221816B100058B8C0 /* LaunchScreen.storyboard */,
@@ -125,6 +183,52 @@
 			path = ShudderChallengeUITests;
 			sourceTree = "<group>";
 		};
+		761AD96721816B440058B8C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				761051AB218269010078FD39 /* Movie.swift */,
+				761051B321840AFE0078FD39 /* MovieManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		761AD96821816B7E0058B8C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				761051AD2182A3930078FD39 /* SectionTitleHeaderCell.swift */,
+				761051AF2183FC9F0078FD39 /* MovieRowCell.swift */,
+				761051B1218409F40078FD39 /* MovieCollectionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		761AD96A21816B8C0058B8C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				761AD93B21816B0E0058B8C0 /* FeaturedVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		761AD96B21818F940058B8C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				761AD96C21818FA90058B8C0 /* UIViewExt.swift */,
+				761051BE21851FDA0078FD39 /* ImageCachable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EA24E6D69D6B5E27A3E23F92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D39116AAD898C0F37C2C21D /* Pods_ShudderChallenge.framework */,
+				5019D8348A330937680EC348 /* Pods_ShudderChallengeTests.framework */,
+				175D590E9FE6F86C992E9761 /* Pods_ShudderChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 761AD95E21816B100058B8C0 /* Build configuration list for PBXNativeTarget "ShudderChallenge" */;
 			buildPhases = (
+				2543D0693BEE49A6B4C38166 /* [CP] Check Pods Manifest.lock */,
 				761AD93221816B0E0058B8C0 /* Sources */,
 				761AD93321816B0E0058B8C0 /* Frameworks */,
 				761AD93421816B0E0058B8C0 /* Resources */,
+				C4A726C6E8D7AED06ABA855B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 761AD96121816B100058B8C0 /* Build configuration list for PBXNativeTarget "ShudderChallengeTests" */;
 			buildPhases = (
+				8A97ED09B9CA1A9AA8603E6A /* [CP] Check Pods Manifest.lock */,
 				761AD94621816B100058B8C0 /* Sources */,
 				761AD94721816B100058B8C0 /* Frameworks */,
 				761AD94821816B100058B8C0 /* Resources */,
@@ -167,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 761AD96421816B100058B8C0 /* Build configuration list for PBXNativeTarget "ShudderChallengeUITests" */;
 			buildPhases = (
+				67D62967967BEDD59CE1751E /* [CP] Check Pods Manifest.lock */,
 				761AD95121816B100058B8C0 /* Sources */,
 				761AD95221816B100058B8C0 /* Frameworks */,
 				761AD95321816B100058B8C0 /* Resources */,
@@ -251,12 +359,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2543D0693BEE49A6B4C38166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShudderChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D62967967BEDD59CE1751E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShudderChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A97ED09B9CA1A9AA8603E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShudderChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A726C6E8D7AED06ABA855B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShudderChallenge/Pods-ShudderChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShudderChallenge/Pods-ShudderChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		761AD93221816B0E0058B8C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				761AD93C21816B0E0058B8C0 /* ViewController.swift in Sources */,
+				761AD96D21818FA90058B8C0 /* UIViewExt.swift in Sources */,
+				761051AE2182A3930078FD39 /* SectionTitleHeaderCell.swift in Sources */,
+				761051B82184ACE90078FD39 /* NetworkManager.swift in Sources */,
+				761051BF21851FDA0078FD39 /* ImageCachable.swift in Sources */,
+				761051B421840AFE0078FD39 /* MovieManager.swift in Sources */,
+				761AD93C21816B0E0058B8C0 /* FeaturedVC.swift in Sources */,
+				761051B2218409F40078FD39 /* MovieCollectionCell.swift in Sources */,
+				761051B02183FC9F0078FD39 /* MovieRowCell.swift in Sources */,
+				761051AC218269010078FD39 /* Movie.swift in Sources */,
 				761AD93A21816B0E0058B8C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,9 +621,11 @@
 		};
 		761AD95F21816B100058B8C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4759E8D9A8D6043CE5DF1B47 /* Pods-ShudderChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6W38YLN79;
 				INFOPLIST_FILE = ShudderChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +640,11 @@
 		};
 		761AD96021816B100058B8C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168380ABC8C99DA960C16F83 /* Pods-ShudderChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6W38YLN79;
 				INFOPLIST_FILE = ShudderChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +659,7 @@
 		};
 		761AD96221816B100058B8C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE327821E6DCD3667E4AA27 /* Pods-ShudderChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +680,7 @@
 		};
 		761AD96321816B100058B8C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CB24A5C391940538A315D9 /* Pods-ShudderChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +701,7 @@
 		};
 		761AD96521816B100058B8C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2D6175CA9839DAE8BBF99A /* Pods-ShudderChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +721,7 @@
 		};
 		761AD96621816B100058B8C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF14F3DB4DD25EEE071E424 /* Pods-ShudderChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_ShudderChallenge {
+  umbrella header "Pods-ShudderChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
