@@ -14,7 +14,7 @@ struct NetworkManager {
     typealias photoEntriesDownloadedHandler = (Result<arrayOfPhotos>) -> ()
     
     let baseURL = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key="
-    let key = "3ef7ba0ad1972287ff90de8a9cded337"
+    let key = "3d1360c83383092e4a02d157573a10f1"
     let endpointOptions = "&per_page=20&format=json&nojsoncallback=1"
     
     public static let shared = NetworkManager()
